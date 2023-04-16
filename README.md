@@ -1,6 +1,6 @@
 # [JCP](https://github.com/mickare/jcp) - Java Command Pipeline
 
-![Build and Publish](https://github.com/mickare/jcp/actions/workflows/main.yml/badge.svg) [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-informational?style=flat-square)](COPYRIGHT.md)
+![Build and Publish](https://github.com/mickare/jcp/actions/workflows/main.yml/badge.svg) [![CodeQL](https://github.com/mickare/jcp/actions/workflows/codeql.yml/badge.svg)](https://github.com/mickare/jcp/actions/workflows/codeql.yml) [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-informational?style=flat-square)](COPYRIGHT.md)
 
 A Java library for creating custom command line parser and command pipelines.
 
