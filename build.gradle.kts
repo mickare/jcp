@@ -11,6 +11,7 @@
 
 plugins {
     id("java-library")
+    id("io.freefair.lombok") version "8.0.1"
     id("maven-publish")
 }
 
