@@ -44,7 +44,7 @@ tasks.test {
 
 publishing {
     publications {
-        register<MavenPublication>("jpc") {
+        register<MavenPublication>("gpr") {
             from(components["java"])
         }
     }
