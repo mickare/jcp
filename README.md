@@ -150,7 +150,7 @@ public class Main {
         @Option(names = {"--day"}, desc = "Day of the week")
         private final DayOfWeek day = DayOfWeek.MONDAY;
 
-        @Argument(name = "other", symbol = "N", nargs = -0, desc = "Additional args")
+        @Argument(name = "other", symbol = "N", nargs = 0, desc = "Additional args")
         private List<String> other;
 
         public Integer execute2(CommandContext<Context> context) throws Exception {

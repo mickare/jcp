@@ -49,7 +49,7 @@ public class ExampleCLI {
         @Option(names = {"--day"}, desc = "Day of the week")
         private DayOfWeek day = DayOfWeek.MONDAY;
 
-        @Argument(name = "other", symbol = "N", nargs = -0, desc = "Additional args")
+        @Argument(name = "other", symbol = "N", nargs = 0, desc = "Additional args")
         private List<String> other = new ArrayList<>();
 
         public Integer execute2(CommandContext<Context> context) throws Exception {
